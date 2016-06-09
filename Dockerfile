@@ -8,11 +8,11 @@ ENV XD_VERSION 1.3.1.${XD_BUILD}
 RUN groupadd -r springxd && useradd -r -g springxd springxd
 
 # Install requiered dependencies
-RUN sudo yum install -y net-tools
-RUN sudo yum install -y curl
-RUN sudo yum install -y rsync
-RUN sudo yum install -y wget
-RUN sudo yum install -y zip unzip
+#RUN sudo yum install -y net-tools
+#RUN sudo yum install -y curl
+#RUN sudo yum install -y rsync
+#RUN sudo yum install -y wget
+#RUN sudo yum install -y zip unzip
 
 RUN wget http://repo.spring.io/libs-release/org/springframework/xd/spring-xd/${XD_VERSION}/spring-xd-${XD_VERSION}-dist.zip \
       -O /opt/spring-xd-${XD_VERSION}-dist.zip \
