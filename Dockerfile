@@ -1,5 +1,5 @@
 FROM java:8
-MAINTAINER Ñhernov Artur
+MAINTAINER Chernov Artur
 
 # 'snapshot' or 'release'
 ENV XD_BUILD RELEASE
